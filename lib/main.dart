@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:graphql_frontend/page/home_page.dart';
+import 'package:graphql_frontend/pages/home_page.dart';
 //https://www.youtube.com/watch?v=_b0tJ7zfv0g&t=81s
 
 void main() async {
@@ -10,7 +10,6 @@ void main() async {
 
 class MyApp extends StatelessWidget {
 
-  //final HttpLink httpLink = new HttpLink('https://graphqlzero.almansi.me/api');
   final HttpLink httpLink = new HttpLink('http://127.0.0.1:8080/graphql');
 
   @override
